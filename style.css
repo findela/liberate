@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import url("assets/styles/utility.css");
+@import url("assets/styles/variables.css");
+@import url("assets/styles/theme.css");
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
+    background: var(--white-color);
+    color: var(--dark-color-shade) !important;
+    font-size: 12px;
+}

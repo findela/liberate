@@ -1,0 +1,34 @@
+/* CSS custom properties overrides (variables) */
+:root {
+  --primary-color-shade-1: #1E93F0;
+  --primary-color-shade-2: #003278;
+  --primary-color-shade--light: #EBF5FF;
+
+  --black-color: #000000;
+  --white-color: #FFFFFF;
+
+  --dark-color-shade: #2C2F3B;
+  --light-color-shade: #FCFDFF;
+
+  --success-color-shade: #57BD72;
+  --success-color-shade--light: #D9FFE4;
+  --success-color-shade--dark: #2b5e38;
+
+  --warning-color-shade: #FFD873;
+  --warning-color-shade--light: #FFF1BE;
+  --warning-color-shade--dark: #998145;
+
+  --info-color-shade: #81BDFF;
+  --info-color-shade--light: #B6D9FF;
+  --info-color-shade--dark: #4d7199;
+
+  --danger-color-shade: #EA4C5F;
+  --danger-color-shade--light: #FFDBDB;
+  --danger-color-shade--dark: #8c2d39;
+
+  --grey-color-shade: #616161;
+  --grey-color-shade--light-1: #C4C4C4;
+  --grey-color-shade--light-2: #CBD5FD;
+  --grey-color-shade--lighter: #e3e3e3;
+  --grey-color-shade--lightest: #EFEFEF;
+}

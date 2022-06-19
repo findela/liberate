@@ -1,0 +1,162 @@
+.border-light {
+  border: 1px solid var(--grey-color-shade--lighter) !important;
+}
+.border-grey {
+  border-color: var(--grey-color-shade);
+}
+.border-theme-primary {
+  border-color: var(--primary-color-shade-1) !important;
+}
+.border-theme-primary-light {
+  border-color: var(--primary-color-shade--light) !important;
+}
+
+.text-grey {
+  color: var(--grey-color-shade);
+}
+.text-grey-light {
+  color: var(--grey-color-shade--lighter);
+}
+.text-black {
+  color: var(--black-color);
+}
+.text-theme-primary {
+  color: var(--primary-color-shade-2) !important;
+}
+.text-theme-primary-blue {
+  color: var(--primary-color-shade-1) !important;
+}
+.text-theme-primary-light {
+  color: var(--primary-color-shade--light) !important;
+}
+.text-theme-warning-light {
+  color: var(--warning-color-shade--light) !important;
+}
+.text-theme-primary-dark {
+  color: var(--primary-color-shade-2);
+}
+.text-success-dark {
+  color: var(--success-color-shade--dark);
+}
+.text-danger-dark {
+  color: var(--danger-color-shade--dark);
+}
+.text-warning-dark {
+  color: var(--warning-color-shade--dark) !important;
+}
+.btn-theme-primary {
+  background-color: var(--primary-color-shade-2);
+  color: var(--white-color) !important;
+}
+.btn-theme-primary-light {
+  background-color: var(--primary-color-shade--light);
+  color: var(--primary-color-shade-2);
+}
+.btn-outline-theme-primary-light {
+  background-color: var(--primary-color-shade--light);
+  color: var(--primary-color-shade-2);
+  border: 1px solid var(--primary-color-shade-2);
+}
+.btn-outline-theme-primary {
+  border: 1px solid var(--primary-color-shade-2);
+  color: var(--primary-color-shade-2);
+}
+.btn.hover:hover {
+  border: 1px solid var(--primary-color-shade-2);
+  color: var(--primary-color-shade-2) !important;
+  font-weight: bolder;
+}
+.btn-outline-theme-primary:hover,
+.btn-outline-theme-primary-dark:hover,
+.btn-theme-primary-light:hover,
+.dropdown-item.active,
+.dropdown-item:active {
+  background: var(--primary-color-shade-2);
+  color: var(--white-color) !important;
+}
+.btn-outline-white {
+  border: 1px solid var(--white-color);
+  color: var(--white-color);
+}
+.btn-outline-white:hover {
+  background-color: var(--white-color);
+  color: var(--primary-color-shade-2);
+}
+
+.btn-grey-light {
+  background-color: var(--grey-color-shade--lighter) !important;
+}
+.btn-outline-grey {
+  border: 1px solid var(--grey-color-shade);
+}
+.btn-white {
+  background-color: var(--white-color) !important;
+}
+.btn-dark {
+  background: var(--black-color) !important;
+}
+
+.bg-dark {
+  background-color: var(--black-color) !important;
+}
+.bg-grey {
+  background: var(--grey-color-shade);
+}
+.bg-warning {
+  background-color: var(--warning-color-shade) !important;
+}
+.bg-info-light {
+  background-color: var(--info-color-shade--light);
+}
+.bg-warning-light {
+  background-color: var(--warning-color-shade--light);
+}
+.bg-danger-light {
+  background-color: var(--danger-color-shade--light);
+}
+.bg-success-light {
+  background-color: var(--success-color-shade--light);
+}
+.bg-success-contrast {
+  background-color: var(--success-color-shade--light);
+}
+.bg-grey-light {
+  background-color: var(--grey-color-shade--lightest);
+}
+.bg-theme-primary {
+  background-color: var(--primary-color-shade-2);
+  color: var(--white-color);
+}
+.bg-theme-primary-light {
+  background-color: var(--primary-color-shade--light);
+}
+.bg-white-50 {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.bg-white-75 {
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+/* input placeholder */
+::placeholder {
+  color: var(--grey-color-shade--lighter) !important;
+  opacity: 1;
+}
+:-ms-input-placeholder {
+  color: var(--grey-color-shade--lighter) !important;
+}
+::-ms-input-placeholder {
+  color: var(--grey-color-shade--lighter) !important;
+}
+
+/* input error placeholder */
+.error::placeholder {
+  color: var(--danger-color-shade--light) !important;
+  opacity: 1;
+}
+.error:-ms-input-placeholder {
+  color: var(--danger-color-shade--light) !important;
+}
+.error::-ms-input-placeholder {
+  color: var(--danger-color-shade--light) !important;
+}
