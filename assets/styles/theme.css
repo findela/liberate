@@ -32,9 +32,6 @@
 .text-theme-warning-light {
   color: var(--warning-color-shade--light) !important;
 }
-.text-theme-primary-dark {
-  color: var(--primary-color-shade-2);
-}
 .text-success-dark {
   color: var(--success-color-shade--dark);
 }
@@ -67,7 +64,6 @@
   font-weight: bolder;
 }
 .btn-outline-theme-primary:hover,
-.btn-outline-theme-primary-dark:hover,
 .btn-theme-primary-light:hover,
 .dropdown-item.active,
 .dropdown-item:active {
