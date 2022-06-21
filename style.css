@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
-@import url("assets/styles/utility.css");
-@import url("assets/styles/variables.css");
-@import url("assets/styles/theme.css");
+@import url("/assets/styles/utility.css");
+@import url("/assets/styles/variables.css");
+@import url("/assets/styles/theme.css");
 body,
 html {
     margin: 0;
@@ -16,9 +16,24 @@ html {
 }
 
 @media only screen and (max-width: 1400px) {
-
+    img.long-term-bg {
+        width: 45%;
+        top: -100px;
+    }
+    img.how-will-it-work-eclipse {
+        left: 80px
+    }
 }
 
 @media only screen and (min-width: 1400px) {
-
+    img.long-term-bg {
+        width: 30%;
+        top: -110px;
+    }
+    img.long-term-banner {
+        width: 75%;
+    }
+    img.how-will-it-work-eclipse {
+        left: 150px;
+    }
 }

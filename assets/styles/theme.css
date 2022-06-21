@@ -10,7 +10,9 @@
 .border-theme-primary-light {
   border-color: var(--primary-color-shade--light) !important;
 }
-
+.border-theme-danger-light {
+  border-color: var(--danger-color-shade--light) !important;
+}
 .text-grey {
   color: var(--grey-color-shade);
 }
@@ -35,6 +37,9 @@
 .text-success-dark {
   color: var(--success-color-shade--dark);
 }
+.text-theme-danger {
+  color: var(--danger-color-shade);
+}
 .text-danger-dark {
   color: var(--danger-color-shade--dark);
 }
@@ -43,6 +48,10 @@
 }
 .btn-theme-primary {
   background-color: var(--primary-color-shade-2);
+  color: var(--white-color) !important;
+}
+.btn-theme-primary-blue {
+  background-color: var(--primary-color-shade-1);
   color: var(--white-color) !important;
 }
 .btn-theme-primary-light {

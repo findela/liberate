@@ -3,16 +3,24 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "parcel": "^2.6.1"
+    "parcel-bundler": "^1.12.4"
   },
+  "browserslist": [
+    "last 1 chrome versions"
+  ],
   "dependencies": {
     "animate.css": "^4.1.1",
+    "assets": "^3.0.1",
     "bootstrap": "^4.6.1"
   }
 }
