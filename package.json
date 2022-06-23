@@ -3,27 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "directories": {
-    "lib": "lib"
-  },
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
-    "predeploy": "rm -rf dist && parcel build index.html --no-source-maps --public-url ./",
-    "deploy": "gh-pages -d dist"
+    "start": "npx parcel index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "gh-pages": "^4.0.0",
-    "parcel-bundler": "^1.12.5"
+    "parcel": "^2.6.1"
   },
-  "browserslist": [
-    "last 1 chrome versions"
-  ],
   "dependencies": {
     "animate.css": "^4.1.1",
-    "assets": "^3.0.1",
     "bootstrap": "^4.6.1"
   }
 }

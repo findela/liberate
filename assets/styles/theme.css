@@ -14,7 +14,7 @@
   border-color: var(--danger-color-shade--light) !important;
 }
 .text-grey {
-  color: var(--grey-color-shade);
+  color: var(--grey-color-shade--light);
 }
 .text-grey-light {
   color: var(--grey-color-shade--lighter);
