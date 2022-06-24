@@ -132,6 +132,9 @@
   background-color: var(--primary-color-shade-2);
   color: var(--white-color);
 }
+.bg-theme-primary-blue {
+  background-color: var(--primary-color-shade-1) !important;
+}
 .bg-theme-primary-light {
   background-color: var(--primary-color-shade--light);
 }

@@ -14,7 +14,7 @@
     <link rel="icon" type="image/x-icon" href="assets/images/liberate-favicon.ico" />
     <title>Welcome to Liberate - India's first aptitude program</title>
   </head>
-  <body>
+  <body class="overflow-x-hidden">
 
     <!--top navbar-->
     <nav class="navbar app-header px-4 d-flex justify-content-between">
@@ -40,7 +40,7 @@
       </div>
     </nav>
 
-    <div class="container-fluid position-relative">
+    <div class="container-fluid px-0 position-relative">
 
       <!--top panel-->
       <section id="top-panel">
@@ -336,12 +336,12 @@
             <div class="row my-4 py-4">
               <div class="col-md-4 mb-4">
                 <div class="card rounded-75 shadow-sm">
-                  <div class="card-body">
-                    <span style="top: -15px; left: 10px"
-                          class="badge position-absolute rounded bg-success-light text-success-dark font-weight-bolder py-2 px-3
+                  <span style="top: -15px; left: 10px"
+                        class="badge position-absolute rounded bg-success-light text-success-dark font-weight-bolder py-2 px-3
                           rounded-0 text-uppercase">
                       paid
                     </span>
+                  <div class="card-body">
                     <span class="d-block text-secondary">June 4, 2022 | 12:00 PM</span>
                     <h6 class="text-theme-primary">Self-preparation for the SAT</h6>
                     <div class="d-inline-flex mt-2">
@@ -469,7 +469,7 @@
       <section id="key-takeaways" class="pt-4 pb-4 my-3 position-relative">
         <img alt="landing-bg" class="position-absolute low-z-index" style="left: -30px; top: 200px"
              src="assets/images/landing/key-takeways/Vector%20(3).svg"/>
-        <img alt="landing-bg" class="position-absolute low-z-index how-will-it-work-eclipse" style="top: 0"
+        <img alt="landing-bg" class="position-absolute low-z-index how-will-it-work-eclipse top-0"
              src="assets/images/landing/key-takeways/Ellipse%201.svg"/>
         <img alt="landing-bg" class="position-absolute high-z-index" style="left: 40px; top: 350px"
              src="assets/images/landing/key-takeways/imageedit_3_2318068533%201.svg"/>
@@ -518,6 +518,153 @@
               </div>
             </div>
 
+          </div>
+        </div>
+      </section>
+
+      <!--pricing section-->
+      <section id="pricing" class="pt-4 my-5 position-relative bg-theme-primary-blue">
+        <img alt="landing-bg" class="position-absolute low-z-index left-0 w-100 pricing-banner"
+             src="assets/images/landing/course-pricing/Polygon%201.svg"/>
+        <div class="col-md-10 mx-auto px-0 py-2">
+          <h2 class="font-weight-bolder text-white">Our Pricing</h2>
+          <p class="w-75 text-white">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          </p>
+          <div class="row mt-5">
+            <div class="col-md-9 mb-4 position-absolute absolute-center">
+              <div class="row">
+
+                <!--pricing 1-->
+                <div class="col-md-6">
+                  <div class="card shadow-lg">
+                    <span style="top: -15px; right: -10px"
+                          class="badge position-absolute rounded bg-warning
+                          font-weight-bolder py-2 px-3 rounded-0 text-uppercase">
+                      most popular
+                    </span>
+                    <div class="card-body">
+                      <div class="pricing-section-card">
+                        <h4 class="txt-24--subheader color-black fw-bold mb-2">SAT Basic</h4>
+                        <small class="txt-14--caption color-grey d-block mb-3">
+                          Practise all you want till you get your dream score using Collegify's
+                          AI-powered learning platform.</small>
+                        <p class="txt-16--body color-grey mb-2">What You’ll Get</p>
+                        <ul class="pricing-features list-group list-group-flush">
+                          <li class="flex-row gap-1 list-group">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                 stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <p>Free Diagnostic Test</p>
+                          </li>
+                        </ul>
+                        <div class="bottom-section">
+                          <div class="flex-row justify-content-between align-items-center mb-3">
+                            <label for="id-1" class="txt-14--caption text-black">Choose Duration</label>
+                            <select name="pricing" id="id-1" class="form-select w-auto text-black">
+                              <option value="274">3 Months</option>
+                              <option value="243">12 Months</option>
+                            </select>
+                          </div>
+                          <div class="flex-row justify-content-between align-items-center mb-4">
+                            <label class="txt-14--caption text-black">Price</label>
+                            <div class="pricing text-end">
+                              <h6 class="txt-14--caption lh-1 mb-0">
+                                <span class="text-decoration-line-through" style="text-decoration: line-through">
+                                  <span>₹</span>60,000
+                                </span>
+                              </h6>
+                              <p class="price d-inline-flex">
+                                <span class="my-auto">₹</span>
+                                <b class="font-weight-bolder text--size-40 my-auto">30,000</b>
+                                <span class="my-auto pl-2 text--size-25 text-grey font-weight-bold">(50% off)</span>
+                              </p>
+                            </div>
+                          </div>
+                          <button class="btn pricing-btn mb-2 w-100 bg-success text-white font-weight-bold">
+                            Proceed To Checkout
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                 viewBox="0 0 24 24" font-size="22px" class="ms-1" height="1em" width="1em"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                            </svg>
+                          </button>
+                          <p class="small text-center text-grey">Any coupon / discount codes can be applied
+                            <br> at the next page.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <!--pricing 2-->
+                <div class="col-md-6">
+                  <div class="card shadow-lg">
+                    <div class="card-body">
+                      <div class="pricing-section-card">
+                        <h4 class="txt-24--subheader color-black fw-bold mb-2">SAT Basic</h4>
+                        <small class="txt-14--caption color-grey d-block mb-3">
+                          Practise all you want till you get your dream score using Collegify's
+                          AI-powered learning platform.</small>
+                        <p class="txt-16--body color-grey mb-2">What You’ll Get</p>
+                        <ul class="pricing-features list-group list-group-flush">
+                          <li class="flex-row gap-1 list-group">
+                            <svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24"
+                                 stroke-linecap="round" stroke-linejoin="round" height="1em" width="1em"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                            </svg>
+                            <p>Free Diagnostic Test</p>
+                          </li>
+                        </ul>
+                        <div class="bottom-section">
+                          <div class="flex-row justify-content-between align-items-center mb-3">
+                            <label for="id-1" class="txt-14--caption text-black">Choose Duration</label>
+                            <select name="pricing" id="id-2" class="form-select w-auto text-black">
+                              <option value="274">3 Months</option>
+                              <option value="243">12 Months</option>
+                            </select>
+                          </div>
+                          <div class="flex-row justify-content-between align-items-center mb-4">
+                            <label class="txt-14--caption text-black">Price</label>
+                            <div class="pricing text-end">
+                              <h6 class="txt-14--caption lh-1 mb-0">
+                                <span class="text-decoration-line-through" style="text-decoration: line-through">
+                                  <span>₹</span>40,000
+                                </span>
+                              </h6>
+                              <p class="price d-inline-flex">
+                                <span class="my-auto">₹</span>
+                                <b class="font-weight-bolder text--size-40 my-auto">20,000</b>
+                                <span class="my-auto pl-2 text--size-25 text-grey font-weight-bold">(50% off)</span>
+                              </p>
+                            </div>
+                          </div>
+                          <button class="btn pricing-btn mb-2 w-100 bg-success text-white font-weight-bold">
+                            Proceed To Checkout
+                            <svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                 viewBox="0 0 24 24" font-size="22px" class="ms-1" height="1em" width="1em"
+                                 xmlns="http://www.w3.org/2000/svg">
+                              <path d="M12 4l-1.41 1.41L16.17 11H4v2h12.17l-5.58 5.59L12 20l8-8z"></path>
+                            </svg>
+                          </button>
+                          <p class="small text-center text-grey">Any coupon / discount codes can be applied
+                            <br> at the next page.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+            </div>
           </div>
         </div>
       </section>

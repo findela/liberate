@@ -23,6 +23,9 @@ html {
     img.how-will-it-work-eclipse {
         left: 80px
     }
+    img.pricing-banner {
+        top: 115px;
+    }
 }
 
 @media only screen and (min-width: 1400px) {
@@ -35,5 +38,8 @@ html {
     }
     img.how-will-it-work-eclipse {
         left: 150px;
+    }
+    img.pricing-banner {
+        top: 75px;
     }
 }
