@@ -42,4 +42,10 @@ html {
     img.pricing-banner {
         top: 75px;
     }
+    .hero-title {
+        width: 650px;
+    }
+    .hero-sub-title {
+        width: 750px;
+    }
 }
