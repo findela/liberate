@@ -42,6 +42,9 @@ html {
     img.pricing-banner {
         top: 75px;
     }
+}
+
+@media only screen and (min-width: 720px) {
     .hero-title {
         width: 650px;
     }
